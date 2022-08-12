@@ -7,7 +7,7 @@
   (title_block
     (title "Xcat NG for Syntor X")
     (date "2022-08-12")
-    (rev "0")
+    (rev "B")
     (company "Xcat group https://groups.io/g/xcat/topics")
     (comment 2 "PCB: WA1JHK")
     (comment 3 "Electronic Design: WB6YMH")
@@ -1491,7 +1491,6 @@
   )
 
   (bus_alias "Misc" (members "Txd" "Rxd" "SDA" "SCL" "DH_data_in" "COS_in" "DH_clk_in" "COS" "DH_clk" "Mode6_out" "DH_data" "Mode6"))
-
   (junction (at 167.64 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 143ed874-a01f-4ced-ba4e-bbb66ddd1f70)
   )
@@ -3587,7 +3586,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4d8c8b27-ac14-40e9-801e-a86fd288cf54)
   )
-  (label "DH_data_in" (at 64.77 179.07 0)
+  (label "DH_data" (at 64.77 179.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4f2613fe-d8ba-4ca3-b0b2-dba72f772fe0)
   )
@@ -3695,7 +3694,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 91417db3-544f-4a47-b763-5f334e1af992)
   )
-  (label "DH_data" (at 118.11 179.07 0)
+  (label "DH_data_in" (at 118.11 179.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 92b1f420-4e35-4c00-a755-e458fc9a50fb)
   )
